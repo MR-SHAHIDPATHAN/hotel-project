@@ -1,7 +1,15 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700;900&display=swap');
+
+
+
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -91,7 +99,7 @@
 }
 
 .nav_menu > span{
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: bold;
     color: rgb(61, 59, 59);
 }
@@ -144,4 +152,118 @@
     left: -10px;
     font-size: 0.7rem;
     
+}
+
+
+
+/* hero section css here  */
+
+
+.hero{
+    /* border: 1px solid red; */
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-image: url('https://w0.peakpx.com/wallpaper/291/722/HD-wallpaper-spa-beach-hotel-polynesia-resort-lit-sea-lights-beach-swimming-luxury-hotel-exotic-islands-ocean-pacific-pool-paradise-spa-island-tropical.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.hero > p{
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+
+.hero  > h1{
+    font-size: 3rem;
+    color: white;
+}
+
+
+.five_star{
+    color: orange;
+}
+
+
+.hero_btn{
+    display: flex;
+    gap: 1rem;
+}
+
+
+.hero_btn  > button{
+    padding: 1rem 3rem;
+    
+    
+
+}
+
+
+.btn_one{
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn_one:hover{
+    background-color: white;
+    border: 1px solid orange;
+    color: orange;
+}
+
+.btn_two{
+    background-color: white;
+    /* border: 1px solid orange; */
+    cursor: pointer;
+    border: none;
+}
+
+
+.btn_two:hover{
+    color: orange;
+
+}
+
+
+
+/* booking section css here */
+
+.booking{
+    /* border: 1px solid red; */
+    height: 150px;
+    margin-bottom: 50px;
+    margin-left:100px;
+    margin-right:100px;
+    background-color: white;
+    position: relative;
+    top: -100px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+
+}
+
+
+.check_in{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+
+.check_in > input{
+    padding: 1rem;
 }
