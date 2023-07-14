@@ -240,7 +240,7 @@
 .booking{
     /* border: 1px solid red; */
     height: 150px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     margin-left:100px;
     margin-right:100px;
     background-color: white;
@@ -266,4 +266,125 @@
 
 .check_in > input{
     padding: 1rem;
+}
+
+
+
+/* service section start */
+
+
+.service{
+    /* border: 1px solid red; */
+    display: flex;
+    margin-left:100px;
+    margin-right:100px;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+
+.services{
+    /* border: 1px solid blue; */
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 10px;
+    margin-bottom: 50px;
+
+    
+}
+
+
+.services:hover{
+    background-color: rgb(141, 178, 247);
+    color: white;
+   
+    
+}
+
+.services:hover h2{
+    color: white;
+}
+
+
+.services:hover i{
+    color: white;
+}
+
+
+
+.services > i{
+    color: rgb(236, 14, 99);
+    font-size: 3rem;
+}
+
+
+
+
+
+.services > h2{
+    font-size: 1.3rem;
+    color: rgb(19, 18, 18);
+}
+
+
+.services > p{
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+
+.service_center{
+    background-color: rgb(255, 1, 141);
+    color: white;
+}
+
+.service_center > h2{
+    color: white;
+}
+
+.service_center > i {
+    color: white;
+}
+
+
+/* main_section css hrer */
+
+
+.main_section{
+    display: flex;
+    margin-left:100px;
+    margin-right:100px;
+    gap: 10px;
+
+}
+
+.main_left{
+   
+    flex: 1;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+
+.main_right{
+    border: 1px solid rgb(98, 0, 255);
+  
+    flex: 1;
+    display: flex;
+}
+
+.main_right > img{
+    width: 300px;
+    height: 300px;
+    border: 5px solid white;
+}
+
+
+.main_left > p{
+    margin-top: 10px;
 }
